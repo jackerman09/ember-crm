@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
+# Use puma as a web server instead of webbrick (per Vic Ramon)
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -42,3 +44,5 @@ gem 'spring',        group: :development
 gem 'ember-rails'
 gem 'ember-source'
 gem 'emblem-rails'
+
+gem 'ffaker'

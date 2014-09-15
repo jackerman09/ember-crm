@@ -1,2 +1,13 @@
-h1 Hello World
-outlet
+a href='http://ember.vicramon.com/creating-a-lead' start here with validations
+
+
+header
+	article
+		.logo
+			h1
+				a href='#' Ember CRM
+
+section#main
+	= outlet
+
+footer
